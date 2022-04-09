@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Id": "FirstPolicy",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "S3:",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "ec2:",
+            "Resource": "*"  
+        }
+    ]
+}
